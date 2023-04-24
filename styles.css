@@ -98,19 +98,25 @@ button {
 .content-container .cta button {
     padding: 16px 24px;
     border-radius: 8px;
-    border-width: 0;
     font-weight: 700;
 }
 
 .btn-download-app {
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
     background: linear-gradient(to right, #0083B0, #00B4DB);
+    border-width: 0;
     color: white;
 }
 
 .btn-discover-more {
-    background-color: white;
+    border-radius: 8px;
     color: black;
+    box-shadow: 0 0 6px 0 rgba(96, 131, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #485dff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
 }
 
 .image {
@@ -235,6 +241,7 @@ button {
     justify-content: center;
     align-items: center;
     flex: 2;
+    border-width: 0;
 }
 
 .newsletter button {
