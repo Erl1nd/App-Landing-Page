@@ -247,3 +247,14 @@ button {
     height: 50px;
     width: 140px;
 }
+
+/* footer */
+footer {
+    padding: 16px 0;
+    background-color: rgb(250, 250, 250);
+}
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
